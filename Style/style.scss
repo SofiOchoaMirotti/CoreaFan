@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Roboto";
+    font-size: 20px;
+}
+
+body{
+    background-color: rgb(245, 114, 114);
+    header{
+        background-color: rgb(32, 66, 139);
+    }
+}
+
+/*-------------------Header--------------------*/
+
+.logo{
+    width: 100px;
+    border-radius: 50%;
+    height: auto;
+    margin-left: 100px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        margin-right: 100px;
+        ul{
+            li{
+                display: inline-block;
+                list-style: none;
+                margin: 10px;
+            }
+        }
+    }
+}
+
+/*-------------------Main Home y general--------------------*/
+
+
+.margen-bottom{
+    margin-bottom: 100px;
+}
+
+.centrado{
+    text-align: center;
+}
+
+h1{
+    margin: 80px;
+    font-size: 200%;
+}
+
+.main-pag-principal{
+    display: flex;
+    align-items: center;
+}
+
+.imagen {
+    width: 600px;
+    height: auto;
+} 
+
+form{
+    text-align: center;
+}
+
+main{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*-------------------Redes de Home--------------------*/
+
+.logo-redes{
+    width: 100px;
+    height: auto;
+}
+
+#redes{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 5%;
+    text-align: center;
+}
+
+
+/*-------------------Segunda caja de main Home--------------------*/
+
+#h2-home{
+    font-size: 150%;
+    margin-left: 50px;
+}
+
+.caja-popular{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    img{
+        margin: 30px;
+    }
+}
+
+/*-------------------Main Historia--------------------*/
+
+
+.caja-historia{
+    display: flex;
+    img{
+        margin: 30px;
+    }
+    p{
+        margin: 30px;
+    }
+}
+
+/*-------------------Main Comida--------------------*/
+
+.comida-h2{
+    margin-bottom: 30px;
+}
+
+.caja-comida{
+    display: flex;
+    p{
+        margin-right: 30px;
+    }
+}
+
+/*-------------------Main Lugares--------------------*/
+
+.lugares-h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.caja-lugares{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        margin-top: 30px;
+    }
+}
+
+/*-------------------Main Contacto--------------------*/
+
+#formulario-contacto{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+    label{
+        text-align: start;
+    }
+}
+
+#segunda-caja-contacto{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+        p{
+            margin: 30px;
+        }
+    img{
+        width: 400px;
+        height: auto;
+    }
+}
+
+#boton-formulario{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*-------------------Footer--------------------*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: black;
+    img{
+        width: auto;
+        height: 80px;
+        border-radius: 50%;
+        text-align: center;
+    }
+}
+
+.footer-info{
+    text-align: end;
+    p{
+        color: white;
+        margin: 30px;
+        background: none;
+    }
+}
+
+.footer-menu{
+    a{
+        color: white;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        li{
+            margin: 10px;
+        }
+    }
+}
+
+.footer-menu-segundo{
+    display: flex;
+    justify-content: center;
+}
+
+/*-------------------Pseudoclases--------------------*/
+
+header a:hover{
+    color: rgb(245, 114, 114);
+}
+
+.logo-redes:hover{
+    width: 110px;
+}
+
+.footer-menu a:hover{
+    color:rgb(32, 66, 139);
+}
