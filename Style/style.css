@@ -300,13 +300,11 @@ main {
 }
 
 .caja-popular {
-  margin: 50px;
   display: flex;
   justify-content: center;
   align-items: end;
 }
 .caja-popular img {
-  margin: 30px;
   width: 40vw;
 }
 
